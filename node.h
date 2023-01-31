@@ -1,5 +1,5 @@
 #include <cstring>
-#define NODE_SIZE 16
+#define NODE_SIZE 24
 
 class Node {
  public:
@@ -7,11 +7,12 @@ class Node {
 
   // Mutator - set the value to some string
   void setValue(const char * value) {
-    strcpy(_value, value);  // BUG: should use strncpy()!
+    // BUG: should use strncpy(_value, value, NODE_SIZE-1);
+    strcpy(_value, value);
   }
 
   // Accessor for value as a string
-  const char * getValue() const {
+  const char* getValue() const {
       return _value;
   }
 

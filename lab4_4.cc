@@ -16,8 +16,8 @@ int main(int argc, char * argv []) {
   cin >> requestSize;
 
   while (requestSize >= 0) {
-    char * p = new char [ requestSize ];
-    char * q = new char [ requestSize ];
+    char* p = new char [ requestSize ];
+    char* q = new char [ requestSize ];
 
     cout << "Values of the two pointers (in decimal, not hex) are "
          << (unsigned long) p << ", " << (unsigned long) q << endl;
