@@ -1,3 +1,5 @@
+CXXFLAGS=-std=c++11 -g -Wall -Wextra
+
 all:	lab4_4 lab4_10
 
 lab4_4:	lab4_4.cc

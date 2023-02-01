@@ -10,16 +10,16 @@
 
 int main(int argc, char * argv []) {
   // Create two nodes.
-  Node * p = new Node();
-  Node * q = new Node();
+  Node *p = new Node();
+  Node *q = new Node();
 
   // Store a value into the second node
-  q -> setValue("Node #2");
+  q->SetValue("Node #2");
 
   // Store a value into the first - note that it is too long to fit
-  p -> setValue("Antidisestablishmentarianism is a very long word");
+  p->SetValue("Antidisestablishmentarianism is a very long word");
 
   // Write out the node contents
-  std::cout << "Strings are:  " << p -> getValue() << ", "
-            << q -> getValue() << std::endl;
+  std::cout << "Strings are:  " << p->GetValue() << ", "
+            << q->GetValue() << std::endl;
 }
