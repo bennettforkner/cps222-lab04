@@ -5,6 +5,12 @@ all:	lab4_4 lab4_10
 lab4_1: lab4_1.cc
 	g++ $(CXXFLAGS) -o $@ $^
 
+lab4_2: lab4_2.cc
+	g++ $(CXXFLAGS) -o $@ $^
+
+lab4_3: lab4_3.cc
+	g++ $(CXXFLAGS) -o $@ $^
+
 lab4_4:	lab4_4.cc
 	g++ -o $@ $^
 
