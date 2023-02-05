@@ -1,5 +1,13 @@
 # Executables
+lab4_1
+lab4_2
+lab4_3
 lab4_4
+lab4_5
+lab4_6
+lab4_7
+lab4_8
+lab4_9
 lab4_10
 
 # Compiled Object files
@@ -33,3 +41,6 @@ lab4_10
 
 # Mac files (normally invisible)
 .DS_Store
+
+# VSCode folder
+.vscode
